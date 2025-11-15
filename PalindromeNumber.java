@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class PalindromeNumber {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        
+        
+        int num = 1111;
         
         int originalNum = num;
         int reversedNum = 0;
@@ -24,7 +24,7 @@ public class PalindromeNumber {
             System.out.println(originalNum + " is NOT a Palindrome Number.");
         }
 
-        sc.close();
+      
     }
 }
 `
